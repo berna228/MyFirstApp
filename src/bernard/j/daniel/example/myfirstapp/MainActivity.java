@@ -34,6 +34,6 @@ public class MainActivity extends Activity {
 	public void updateApp(View view) {
 		UpdateApp upApp = new UpdateApp();
 		upApp.setContext(getApplicationContext());
-		upApp.execute("http://www.d.umn.edu/~berna228/MyFirstApp.apk");
+		upApp.execute("http://www.d.umn.edu/~berna228/MyFirstApp/bin/MyFirstApp.apk");
 	}
 }
