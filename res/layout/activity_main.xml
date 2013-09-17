@@ -7,7 +7,7 @@
     android:orientation="horizontal" >
 
     <Button
-        android:id="@+id/Button2"
+        android:id="@+id/button_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -16,22 +16,22 @@
         android:text="@string/button_send" />
 
     <Button
-        android:id="@+id/Button1"
+        android:id="@+id/button_update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/Button2"
-        android:text="@string/button_update" 
-        android:onClick="updateApp"/>
+        android:layout_below="@+id/button_send"
+        android:onClick="updateApp"
+        android:text="@string/button_update" />
 
     <EditText
         android:id="@+id/edit_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/Button2"
-        android:layout_alignBottom="@+id/Button2"
+        android:layout_alignBaseline="@+id/button_send"
+        android:layout_alignBottom="@+id/button_send"
         android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/Button2"
+        android:layout_toLeftOf="@+id/button_send"
         android:ems="10"
         android:hint="@string/edit_message" >
 

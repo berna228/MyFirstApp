@@ -26,7 +26,7 @@ protected Void doInBackground(String... arg0) {
             c.setRequestMethod("GET");
             c.setDoOutput(true);
             c.connect();
-                        
+
             String PATH = "/mnt/sdcard/Download/";
             File file = new File(PATH);
             file.mkdirs();
